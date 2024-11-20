@@ -1,0 +1,60 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+.border-1{
+    border: 2px solid #3300C9;
+}
+.banner{
+    background-image: url(image/1.png);
+    background-position: center;
+    background-size: cover;
+}
+.banner-1{
+    backdrop-filter: blur(5px);
+}
+.card-item-1{
+    padding: 107px 85px 102px 76px;
+    background: #19012DB0;
+    border-radius: 55px;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
+.card-item-2{
+    left: 26%;
+}
+footer{
+    padding: 85px 0px 30px 0px;
+    background-color: #181818;
+}
+.first{
+    grid-template-columns: 1.7fr 1.3fr;
+}
+.lest{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img {
+    filter: brightness(50%);
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.login{
+    transition: 0.5s;
+}
+.login:hover{
+    color: white;
+    background-color: #3300C9;
+}
